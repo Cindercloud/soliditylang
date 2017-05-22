@@ -18,10 +18,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="216" column="39" lean-forward="false" selection-start-line="216" selection-start-column="39" selection-end-line="216" selection-end-column="39" />
+            <state relative-caret-position="333">
+              <caret line="280" column="238" lean-forward="false" selection-start-line="280" selection-start-column="238" selection-end-line="280" selection-end-column="238" />
               <folding>
-                <element signature="e#10444#10451#0" expanded="true" />
+                <element signature="e#10445#10452#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#figure#0;n#div#3;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,6 +86,7 @@
       <find>componen</find>
       <find>donationbutton</find>
       <find>dao</find>
+      <find>icos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,6 +149,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="soliditylang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soliditylang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soliditylang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soliditylang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soliditylang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -722,12 +756,12 @@
       <updated>1495375488465</updated>
       <workItem from="1495375489813" duration="1102000" />
       <workItem from="1495438133677" duration="204000" />
-      <workItem from="1495478730603" duration="6834000" />
+      <workItem from="1495478730603" duration="7249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8140000" />
+    <option name="totallyTimeSpent" value="8555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -918,12 +952,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/icos/statusim.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="216" column="39" lean-forward="false" selection-start-line="216" selection-start-column="39" selection-end-line="216" selection-end-column="39" />
+        <state relative-caret-position="333">
+          <caret line="280" column="238" lean-forward="false" selection-start-line="280" selection-start-column="238" selection-end-line="280" selection-end-column="238" />
           <folding>
-            <element signature="e#10444#10451#0" expanded="true" />
+            <element signature="e#10445#10452#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#figure#0;n#div#3;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
