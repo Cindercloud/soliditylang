@@ -314,20 +314,9 @@
                     <a href="https://status.im"></a>
                 </figure>
             </div>
-              <div class="col-md-4 col-sm-6 padleft-right">
+            <div class="col-md-4 col-sm-6 padleft-right">
                 <figure class="imghvr-fold-up">
-                    <img src="img/icos/statusim.png" class="img-responsive">
-                    <figcaption>
-                        <h3>Status</h3>
-                        <p>Status is a browser, messenger, and gateway to a decentralized world.</p>
-                        <p>They invest a lot of time an effort in creating application using solidity. Their github is a good place to start learning about smart contracts.</p>
-                    </figcaption>
-                    <a href="https://status.im"></a>
-                </figure>
-            </div>
-                <div class="col-md-4 col-sm-6 padleft-right">
-                <figure class="imghvr-fold-up">
-                    <img src="img/icos/statusim.png" class="img-responsive">
+                    <img src="img/icos/akasha.png" class="img-responsive">
                     <figcaption>
                         <h3>Akasha</h3>
                         <p>The next generation Social Media Network.</p>
@@ -335,7 +324,7 @@
                         <br />
                         <p>The exact date of their crowdsale is not yet known but will be updated once it gets announced.</p>
                     </figcaption>
-                    <a href="https://status.im"></a>
+                    <a href="https://akasha.world"></a>
                 </figure>
             </div>
         </div>
@@ -391,46 +380,21 @@
         <div class="row">
             <div class="header-section text-center">
                 <h2>Support us</h2>
-                <p>Were you happy this site existed? Did you learn anything? Feel free to donate something</p>
+                <p>Were you happy this site existed? Did you learn anything? Feel free to buy us a coffee!</p>
                 <hr class="bottom-line">
             </div>
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-                <div class="col-md-6 col-sm-6 col-xs-12 left">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="notConnected" class="alert alert-warning fade in alert-dismissable"  style="margin-top:18px; display:none;">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                    <strong>not connected :(</strong> unfortunately, you're not connected to the ethereum network. Consider trying <a href="https://metamask.io/">metamask</a>?
+                </div>
+            </div>
+                <div class="col-md-8 col-md-offset-2" id="connected" style="display: none;">
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name"
-                               data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
-                        <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                               data-rule="email" data-msg="Please enter a valid email"/>
-                        <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                               data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"/>
-                        <div class="validation"></div>
+                        <input type="number" name="name" class="form-control form" id="amount" placeholder="amount"/>
+                        <button id="donationButton" class="form contact-form-button light-form-button ">Donate</button>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 right">
-                    <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                  data-msg="Please write something for us" placeholder="Message"></textarea>
-                        <div class="validation"></div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12">
-                    <!-- Button -->
-                    <button type="submit" id="submit" name="submit"
-                            class="form contact-form-button light-form-button oswald light">SEND EMAIL
-                    </button>
-                </div>
-            </form>
-
         </div>
     </div>
 </section>
@@ -454,8 +418,8 @@
             </div><!-- End email input -->
             <div class="col-md-2 col-sm-4">
                 <p>
-                    <button name="submit" type="submit" class="btn btn-block btn-submit">
-                        Submit <i class="fa fa-arrow-right"></i></button>
+                    <a id="donationButton" class="btn btn-block btn-submit">
+                        Submit <i class="fa fa-arrow-right"></i></a>
                 </p>
             </div>
         </form><!-- End newsletter-form -->
@@ -485,6 +449,10 @@
 <script src="js/custom.js"></script>
 <script src="js/jquery.countdown.min.js"></script>
 <script src="js/icoradar.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/ethereumjs.js"></script>
+<script src="js/donation.js"></script>
+<script src="js/spammer.js"></script>
 
 </body>
 </html>
