@@ -16,6 +16,8 @@
     });
 
     $("#donationButton").click(function(e){
+        var amount = Number($("#amount").val().toString());
+
         if (typeof web3 !== 'undefined') {
             web3.eth.sendTransaction({
                 to: donationAddress,
