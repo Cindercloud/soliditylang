@@ -21,10 +21,9 @@
         if (typeof web3 !== 'undefined') {
             web3.eth.sendTransaction({
                 to: donationAddress,
-                value: web3.toWei(Number($("#amount").val()))
+                value: web3.toWei(Number($("#amount").val()))   
             }, function(error, address){
                 console.log(error);
-                console.log(address);
             });
             e.preventDefault();
         }
